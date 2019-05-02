@@ -1,0 +1,14 @@
+{
+  "name": "keksobooking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add dist && git commit -m \"Dist subtree commit\" && git subtree push --prefix dist origin gh-pages && rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
