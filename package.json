@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "git add dist && git commit -m \"Dist subtree commit\" && git subtree push --prefix dist origin gh-pages && rm -rf dist"
+    "deploy": "git add -f dist && git commit -m \"Dist subtree commit\" && git subtree push --prefix dist origin gh-pages && rm -rf dist"
   },
   "author": "",
   "license": "ISC",
